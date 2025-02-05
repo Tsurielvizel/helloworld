@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hello, World!</title>
+  <title>דף מוגן בסיסמה</title>
 </head>
 <body>
-  <h1>אני אוהב אותך שירה!</h1>
+  <script>
+    let password = prompt("הכנס סיסמה:");
+    if (password === "love") {
+      document.write("<h1>אני אוהב אותך שירה! תוכן סודי!</h1>");
+    } else {
+      document.write("סיסמה שגויה");
+    }
+  </script>
 </body>
 </html>
